@@ -13,13 +13,13 @@ import os
 
 count = 0
 
-os.makedirs('../scraped-images', exist_ok = True)
+os.makedirs('./scraped-images', exist_ok = True)
 
 class WebCnnPipeline:
     def download_image(self, value):
         global count
         count = count + 1
-        output_path = f"../scraped-images/image{count}.jpg"
+        output_path = f"./scraped-images/image{count}.jpg"
         urlretrieve(value[0], output_path)
         return output_path
 
