@@ -1,6 +1,7 @@
 # CNN Website Scraper
 
 This repository contains a Python script that uses the Scrapy framework to scrape news headlines, timestamps, and related images from the CNN website.
+A demonstration video has also been added to  the repository to easily understand the working.
 
 ## Table of Contents
 
