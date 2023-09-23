@@ -1,0 +1,17 @@
+--CSS Selectors Used--
+
+For Link to News page:
+
+response.css('div.card.container__item.container__item--type-section.container_lead-plus-headlines__item.container_lead-plus-headlines__item--type-section a::attr(href)').get()
+
+For Image of Linked Page:
+
+response.css('picture.image__picture img ::attr(src)').get()
+
+For Headline of Linked Page:
+
+response.css('div.headline__wrapper h1[id="maincontent"]::text').get()
+
+For TimeStamp of Linked Page:
+
+response.css('div.timestamp::text').get()
